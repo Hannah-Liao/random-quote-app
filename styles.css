@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Shantell Sans', cursive;
+    background-image: url(https://picsum.photos/1600/800);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 90%;
+    height: 400px;
+    max-width: 500px;
+    background-color: #ffffff9d;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.wrapper h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.wrapper .content {
+    margin: 30px 0 20px;
+    height: 55%;
+}
+
+.content .quote-area {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-area .quote {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    word-break: break-all;
+}
+
+.quote-area i {
+    font-size: 30px;
+}
+
+.quote-area i:first-child {
+    margin: 3px 8px 0 0;
+}
+
+.quote-area i:last-child {
+    margin: 0 0 3px 8px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.content .author {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.author span:first-child {
+    margin: -1px 8px 0 0;
+}
+
+.buttons {
+    border-top: 1px solid #ccc;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons ul li {
+    list-style: none;
+    margin: 0 8px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #5372F0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5372F0;
+    cursor: pointer;
+    transition: .45s ease;
+}
+
+.buttons ul li:hover {
+    color: #fff;
+    background: #5372F0;
+}
+
+.buttons .quote-btn {
+    background: #5372F0;
+    border: none;
+    outline: none;
+    padding: 13px 22px;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    transition: .45s ease;
+}
+
+.buttons .quote-btn:hover {
+    color: black;
+    background: #fff;
+}
